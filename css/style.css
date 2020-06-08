@@ -1,0 +1,61 @@
+body {
+    background-image: url('../images/pizzapattern.jpg');
+    background-repeat: repeat;
+    padding: 1rem;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+    background-color: khaki;
+    border: 5px solid rgb(250, 52, 52);
+    border-radius: 15px;
+}
+
+#menu_display {
+    margin: 20px;
+    padding: 10px;
+    background-color: khaki;
+    border: 5px solid rgb(250, 52, 52);
+    border-radius: 15px;
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    background-color: khaki;
+    border: 3px solid rgb(250, 52, 52);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(252, 168, 107);
+}
+
+#viewOrderBtn{
+    display: none;
+}
+
+#submitOrderBtn {
+    margin-top: 15px;
+}
+
+#ordered_items {
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: khaki;
+    border: 5px solid rgb(250, 52, 52);
+    border-radius: 15px;
+}
+
